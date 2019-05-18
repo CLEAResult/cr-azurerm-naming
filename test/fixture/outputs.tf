@@ -151,7 +151,6 @@ output "spp" {
   value = "${lookup(module.naming.type-map, "azuread_service_principal_password")}"
 }
 
-
 # Perform all env map lookups
 output "d" {
   value = "${lookup(module.naming.env-map, "d")}"
@@ -160,6 +159,7 @@ output "d" {
 output "dev" {
   value = "${lookup(module.naming.env-map, "dev")}"
 }
+
 output "development" {
   value = "${lookup(module.naming.env-map, "development")}"
 }
@@ -171,6 +171,7 @@ output "t" {
 output "test" {
   value = "${lookup(module.naming.env-map, "test")}"
 }
+
 output "testing" {
   value = "${lookup(module.naming.env-map, "testing")}"
 }
@@ -186,6 +187,7 @@ output "uat" {
 output "q" {
   value = "${lookup(module.naming.env-map, "q")}"
 }
+
 output "qa" {
   value = "${lookup(module.naming.env-map, "qa")}"
 }
@@ -193,6 +195,7 @@ output "qa" {
 output "s" {
   value = "${lookup(module.naming.env-map, "s")}"
 }
+
 output "staging" {
   value = "${lookup(module.naming.env-map, "staging")}"
 }
@@ -204,6 +207,7 @@ output "p" {
 output "prod" {
   value = "${lookup(module.naming.env-map, "prod")}"
 }
+
 output "production" {
   value = "${lookup(module.naming.env-map, "production")}"
 }
