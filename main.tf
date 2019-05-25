@@ -1,5 +1,5 @@
 variable "type-map" {
-  type = "map"
+  type = map(string)
 
   default = {
     "azurerm_key_vault"                          = "akv"
@@ -37,15 +37,14 @@ variable "type-map" {
     "azurerm_network_security_group"             = "nsg"
     "azurerm_kubernetes_cluster"                 = "aks"
     "azurerm_kubernetes_service"                 = "aks"
-
-    "azuread_application"                = "app"
-    "azuread_service_principal"          = "spn"
-    "azuread_service_principal_password" = "spp"
+    "azuread_application"                        = "app"
+    "azuread_service_principal"                  = "spn"
+    "azuread_service_principal_password"         = "spp"
   }
 }
 
 variable "env-map" {
-  type = "map"
+  type = map(string)
 
   default = {
     "d"           = "d"
@@ -65,3 +64,4 @@ variable "env-map" {
     "production"  = "p"
   }
 }
+
