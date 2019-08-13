@@ -51,6 +51,10 @@ output "api" {
   value = module.naming.type-map["azurerm_api_management"]
 }
 
+output "log" {
+  value = module.naming.type-map["azurerm_logic_app_workflow"]
+}
+
 output "ain" {
   value = module.naming.type-map["azurerm_application_insights"]
 }

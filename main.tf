@@ -15,6 +15,7 @@ variable "type-map" {
     "azurerm_app_service_plan"                   = "asp"
     "azurerm_function_app"                       = "afa"
     "azurerm_api_management"                     = "api"
+    "azurerm_logic_app_workflow"                 = "log"
     "azurerm_application_insights"               = "ain"
     "azurerm_container_service"                  = "acs"
     "azurerm_container_registry"                 = "acr"
