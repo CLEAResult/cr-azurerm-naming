@@ -37,6 +37,7 @@ variable "type-map" {
     "azurerm_network_security_group"             = "nsg"
     "azurerm_kubernetes_cluster"                 = "aks"
     "azurerm_kubernetes_service"                 = "aks"
+    "azurerm_logic_app_workflow"                 = "log"
 
     "azuread_application"                = "app"
     "azuread_service_principal"          = "spn"
