@@ -1,5 +1,5 @@
 variable "type-map" {
-  type = "map"
+  type = map
 
   default = {
     "azurerm_key_vault"                          = "akv"
@@ -46,7 +46,7 @@ variable "type-map" {
 }
 
 variable "env-map" {
-  type = "map"
+  type = map
 
   default = {
     "d"           = "d"
