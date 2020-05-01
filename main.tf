@@ -64,5 +64,8 @@ variable "env-map" {
     "p"           = "p"
     "prod"        = "p"
     "production"  = "p"
+    "sandbox"     = "x"
+    "sbx"         = "x"
+    "x"           = "x"
   }
 }
