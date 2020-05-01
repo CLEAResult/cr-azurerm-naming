@@ -211,3 +211,15 @@ output "prod" {
 output "production" {
   value = "${lookup(module.naming.env-map, "production")}"
 }
+
+output "sandbox" {
+  value = "${lookup(module.naming.env-map, "sandbox")}"
+}
+
+output "sbx" {
+  value = "${lookup(module.naming.env-map, "sbx")}"
+}
+
+output "x" {
+  value = "${lookup(module.naming.env-map, "x")}"
+}
