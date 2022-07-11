@@ -67,5 +67,8 @@ variable "env-map" {
     "sandbox"     = "x"
     "sbx"         = "x"
     "x"           = "x"
+    "n"           = "n"
+    "non-prod"    = "n"
+    "nonprod"    = "n"
   }
 }
